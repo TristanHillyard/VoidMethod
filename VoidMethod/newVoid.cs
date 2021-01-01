@@ -12,7 +12,8 @@ namespace VoidMethod
             int result2;
             result2 = num2;
             result = num1 + 2;
-            return;
+            Console.WriteLine(result);
+            Console.WriteLine(result2);
         }
     }
 }

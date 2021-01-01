@@ -9,8 +9,8 @@ namespace VoidMethod
             newVoid math = new newVoid();
             int num = 10;
             int num2 = 5;
-            math.NewVoid(5, 10);
-            Console.WriteLine(math.NewVoid(num + num2));
+            math.NewVoid(num, num2);
+            math.NewVoid(12, 20);
         }
     }
 }
